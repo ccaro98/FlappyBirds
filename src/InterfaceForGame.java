@@ -8,6 +8,7 @@ public class InterfaceForGame extends Rectangles {
     {
         JFrame window = new JFrame("Game");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setSize(height, width);
         window.setVisible(true);
     }
 }
